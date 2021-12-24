@@ -11,9 +11,9 @@ public class Sample {
         System.out.println("a:"+a);
 
         Example e1=new Example();
-        System.out.println("e1:"+e1); //O/P: e1:methods.Example@4554617c
+        System.out.println("e1:"+e1); //   O/P: e1:methods.Example@4554617c
 
         e1=new Example();
-        System.out.println("e1:"+e1);  //O/P: e1:methods.Example@74a14482
+        System.out.println("e1:"+e1);  //  O/P: e1:methods.Example@74a14482
     }
 }
