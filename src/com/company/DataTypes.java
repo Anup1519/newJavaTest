@@ -34,7 +34,7 @@ public class DataTypes {
         System.out.println(b);
         System.out.println(ch);
         int y=130;
-        byte b1=(byte) y;     // [minRange+(result-MaxRange-1]=> -128+(130-127-1)=>-128+2=>-126
+        byte b1=(byte) y;     // [minRange+(result-MaxRange-1)]=> -128+(130-127-1)=>-128+2=>-126
         System.out.println(b1);
 
     }
